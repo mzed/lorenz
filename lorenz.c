@@ -86,7 +86,7 @@ void lorenz_ft3(t_lorenz *x, float q)
 	x->l_h = q;
 }
 
-void lorenz_assist(t_lorenz *x, void *b, long m, long a, char *s) // 4 final arguments are always the same for the assistance method
+void lorenz_assist(t_lorenz *x, void *b, long m, long a, char *s)
 {
     if (m == ASSIST_OUTLET)
         switch (a) {
